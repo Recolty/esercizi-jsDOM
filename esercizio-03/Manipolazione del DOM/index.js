@@ -1,5 +1,4 @@
 const addProduct = () => {
-  
   const inputId = document.querySelector("input");
   inputId.setAttribute("id", "input-list");
 
