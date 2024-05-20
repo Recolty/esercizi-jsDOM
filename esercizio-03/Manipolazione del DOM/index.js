@@ -1,4 +1,11 @@
 const addProduct = () => {
+  
+  const inputId = document.querySelector("input");
+  inputId.setAttribute("id", "input-list");
+
+  const ulId = document.querySelector("ul");
+  ulId.setAttribute("id", "to-do-list");
+
   const ul = document.querySelector("#to-do-list");
   const input = document.querySelector("#input-list");
   const value = input.value;
